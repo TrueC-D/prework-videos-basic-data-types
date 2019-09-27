@@ -11,11 +11,11 @@
 
 + Hi guys, it's Ian from Flatiron School. In this video, we're going to look at some basic data types in Ruby. By the end of this video, you should be able to:
 + Describe what "data type" means in Ruby
-+ Identify data versus other words in a Ruby file
++ Identify data from other words in a Ruby file
 + Identify some common ruby data types
 + Use the `.class` method to identify a data type in IRB
 + So let's get started. Before we talk about the different data types, let's talk about what we even mean by `data`.
-+ Every single word in a ruby file is one of three things - a Ruby keyword, a bare word, or a piece of data.
++ Every single word in a Ruby file is one of three things - a Ruby keyword, a bare word, or a piece of data.
 + Ruby keywords are things like `if`and `end` - these are the very basic core building blocks of the language.
 + We can view the entire list at the documentation page [here](https://docs.ruby-lang.org/en/2.2.0/keywords_rdoc.html) - as you can see, there aren't very many keywords.
 + This means that I can't make a variable called `if`, because this would cause a conflict for Ruby.
@@ -25,7 +25,7 @@
 + You should never do this, because it's confusing, but you could if you wanted to.
 + One other note here: Ruby will throw an error if it gets a reference to a bare word that hasn't been defined yet.
 + If I type `dog` into IRB - this will throw an error (undefined local variable or method dog for main object) - I haven't told Ruby what dog is, so it doesn't know what to do when it sees this.
-+ The third piece of a Ruby program is data. Data is simply some values or information that we want to be able to store in our program.
++ The third piece of a Ruby program are data. Data are simply some values or information that we want to be able to store in our program.
 + Data in programming can be different, and because of that, ruby has different data types. Data types let us treat different kinds of data (such as names and ages) differently from each other.
 + Let's look at a few basic data types now and how they're used.
 + There are five basic data types that we'll look at today - strings, integers, floats, boolean, and symbols.
@@ -33,7 +33,7 @@
 + Strings can contain numbers or special characters - "LK #905#(SD@ )" is totally valid as a string.
 + Integers are whole numbers that can be positive or negative. `42`, `0`, `-901` are all examples of Integers.
 + We can do math with these - addition using `+`, subtraction using `-`, multiplication using `*`, and division using `/`
-+ One trick to know about Integer division - when doing math with Integers, ruby will always return an Integer, which means it will return a whole number.
++ One trick to know about Integer division - when doing math with Integers, Ruby will always return an Integer, which means it will return a whole number.
 + So if I do 9 / 4 - that will return 2.
 + I can use the Modulo (`%`) operator to tell me what the remainder would be. So this is a weird thing when you're starting out - there are actually some cool programming tricks that make this helpful, but for now this is something to be aware of.
 + If you want to have a number with a decimal, you can use a Float. Floats are numbers that use a decimal point. `1.0`, `3.1415`, `-1.192` are all valid Floats.
@@ -49,7 +49,7 @@
 + We learned how to identify data versus other words in a Ruby file, and what those different words are
 + We identified the five basic Ruby data types - String, Integer, Float, Boolean, and Symbol
 + And we used the `.class` method to identify a data type in IRB so that we can tell what type of data something is.
-+ Thanks so much for watching - happy coding! 
++ Thanks so much for watching - happy coding!
 
 ## Resources
 + https://docs.ruby-lang.org/en/2.2.0/keywords_rdoc.html
