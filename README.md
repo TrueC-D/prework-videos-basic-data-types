@@ -23,8 +23,6 @@
 + For example, if I write `number = 100`, `number` is a bare word that I've given some meaning to - I've set that as a local variable pointed to the number 100.
 + Some bare words are actually defined by the core Ruby language itself. For example: `puts number` - the `puts` method is a bare word that Ruby defines. I could, if I wanted to, create a local variable called `puts` by writing `puts = "Hi"`.
 + You should never do this, because it's confusing, but you could if you wanted to.
-+ One other note here: Ruby will throw an error if it gets a reference to a bare word that hasn't been defined yet.
-+ If I type `dog` into IRB - this will throw an error (undefined local variable or method dog for main object) - I haven't told Ruby what dog is, so it doesn't know what to do when it sees this.
 + The third piece of a Ruby program are data. Data are simply some values or information that we want to be able to store in our program.
 + Data in programming can be different, and because of that, ruby has different data types. Data types let us treat different kinds of data (such as names and ages) differently from each other.
 + Let's look at a few basic data types now and how they're used.
