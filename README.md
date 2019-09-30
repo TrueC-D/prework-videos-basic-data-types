@@ -35,7 +35,7 @@
 + We can do math with these - addition using `+`, subtraction using `-`, multiplication using `*`, and division using `/`
 + One trick to know about Integer division - when doing math with Integers, Ruby will always return an Integer, which means it will return a whole number.
 + So if I do 9 / 4 - that will return 2.
-+ I can use the Modulo (`%`) operator to tell me what the remainder would be. So this is a weird thing when you're starting out - there are actually some cool programming tricks that make this helpful, but for now this is something to be aware of.
++ I can use the Modulo (`%`) operator to tell me what the remainder would be. So this is a weird thing when you're starting out - there are actually some cool programming tricks where this is helpful to know, but for now this is something to be aware of.
 + If you want to have a number with a decimal, you can use a Float. Floats are numbers that use a decimal point. `1.0`, `3.1415`, `-1.192` are all valid Floats.
 + We can do math the same way on Floats, but division here will return a Float as well. So `9.0 / 4.0` returns `2.5`
 + One other trick to know here - what do you think this will return? `"10" + "10"`
