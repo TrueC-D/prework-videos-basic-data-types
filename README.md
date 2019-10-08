@@ -40,7 +40,8 @@
 + This will actually return "1010". Why? Because both of those pieces of data are Strings, not numbers. Ruby actually doesn't know that they look like numbers to us. So instead of doing math addition, the `+` operator for strings just takes two strings and smashes them together. This is more useful for things like "Hello " + "Ian" if you want to combine text.
 + If we ever have a variable and we want to know what type of data it is, we can just ask it by using the `.class method` So `10.class` will tell us that this is an Integer, while `10.0.class` will tell us that this is a Float.
 + Two more basic data types to be aware of - boolean data in Ruby is simply either `true` or `false`. This is really useful for using conditional logic. I can compare two pieces of data using a double equals sign: `1 == 1` will return `true`, and `1 == 2` will return false.
-+ What do you think this will return? `"1" == 1`? This actually returns false, because the first one is a string and the second one is an Integer, so Ruby does not know that they look the same to us.
++ Try to predict what the following statement will return: `"1" == 1`. Pause the video for a moment to think about the answer. 
++ This actually returns false, because the first one is a string and the second one is an Integer, so Ruby does not know that they look the same to us.
 + Finally, Ruby has a data type called a symbol. Symbols look like strings, but can't contain spaces and start with a colon. `:name` is an example of a symbol. Symbols are unique in Ruby, which make them nice for tracking data in a data structure. You don't have to worry too much about that for right now, just know that this simple type of data is out there.
 + So that's it for this video! To recap what we learned:
 + We discussed what data type means in Ruby and why it's useful to have different data types.
